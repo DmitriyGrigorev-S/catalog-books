@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог книг</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <main class="main">
+        <section class="catalog catalog--padding">
+          <div class="container">
+            <div class="grid">
+              <div class="grid__row grid__row--overflow-sm grid__row--offset-sm">
+                <div class="grid__cell grid__cell--6 grid__cell--auto-sm" data-slot="big"></div>
+
+                <div class="grid__cell grid__cell--6 grid__cell--auto-sm grid__cell--flex-sm" data-slot="small"></div>
+
+                <div class="grid__cell grid__cell--4 grid__cell--auto-sm" data-slot="medium"></div>
+                <div class="grid__cell grid__cell--4 grid__cell--auto-sm" data-slot="medium"></div>
+                <div class="grid__cell grid__cell--4 grid__cell--auto-sm" data-slot="medium"></div>
+              </div>
+            </div>
+
+            <button data-button-shuffle class="button button--shuffle">Перемешать</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <script src="./js/index.js"></script>
+</html>

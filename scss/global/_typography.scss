@@ -1,0 +1,106 @@
+* {
+  &::selection {
+    background: #abb4d4;
+  }
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+
+  @media (max-width: 1279px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 1023px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  line-height: inherit;
+}
+
+h1,
+.h1 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+
+  @media (max-width: 1023px) {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 26px;
+    line-height: 110%;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+}
+
+h2,
+.h2 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 100%;
+
+  @media (max-width: 1023px) {
+    font-size: 26px;
+    line-height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+// h3,
+// .h3 {}
+
+// h4,
+// .h4 {}
+
+// h5,
+// .h5 {}
+
+// h6,
+// .h6 {}
+
+a,
+.a {
+  color: #0000ee;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff0000;
+  }
+}
+
+p,
+.p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  @media (max-width: 1023px) {
+    font-size: 14px;
+  }
+}
+
+mark,
+.mark {
+  background-color: #ecedf2;
+}
